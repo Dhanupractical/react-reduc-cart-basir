@@ -5,7 +5,7 @@ import Products from './components/Products';
 import data from './data.json'
 
 class App extends React.Component {
-  constructor(){
+  constructor(){     // dhanu why is constructor and super function needed in classcomponent
     super();
     this.state={
       products: data.products,
